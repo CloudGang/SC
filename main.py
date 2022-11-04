@@ -1,5 +1,5 @@
 """
-<3Devon
+CloudBotsBiz
 """
 import toga
 from toga.style import Pack
@@ -8,7 +8,6 @@ from toga.style.pack import COLUMN, ROW
 import socket
 import threading
 
-#93.188.163.171
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 def MyRoot(app):
