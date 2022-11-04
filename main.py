@@ -27,10 +27,10 @@ def MyRoot(app):
             if message == "NICK":
                 client.send(text2.value.encode('utf-8'))
 
-                # thread = threading.Thread(target=receive)
-                # thread.start()
+                thread = threading.Thread(target=receive)
+                thread.start()
 
-    def receive():
+    def receive(self):
         stop = False
         chat_text = text3.value
         while not stop:
